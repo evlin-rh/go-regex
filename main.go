@@ -3,13 +3,14 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"newPackage/regex"
 	"regexp"
 )
 
 func main() {
-	simpleRegex()
+	//simpleRegex()
 
-	LiteralPatterns()
+	regex.LiteralPatterns()
 }
 
 func simpleRegex() {
