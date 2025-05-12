@@ -7,6 +7,12 @@ import (
 )
 
 func main() {
+	simpleRegex()
+
+	LiteralPatterns()
+}
+
+func simpleRegex() {
 	//Regular Expression with regexp
 	match, _ := regexp.MatchString("p[a-z]+ch", "peach")
 	fmt.Println(match)
