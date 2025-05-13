@@ -11,6 +11,31 @@ func main() {
 	//simpleRegex()
 
 	regex.LiteralPatterns()
+	regex.IFlag()
+	//regex.GFlag()
+	regex.MFlag()
+	regex.SFlag()
+	regex.CharacterClasses()
+	regex.NegatedChar()
+	regex.Range()
+
+	// Quantifiesr
+	regex.Asterisk()
+	regex.Plus()
+	regex.MinMax()
+	regex.Lazy()
+
+	// Reptition
+	regex.Parantheses()
+	regex.Dot()
+	regex.Pipe()
+	regex.SpecialChar()
+
+	regex.Anchors()
+	regex.WordBoundaries()
+
+	regex.Grouping()
+	regex.CapturingGroups()
 }
 
 func simpleRegex() {
